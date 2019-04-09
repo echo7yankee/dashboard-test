@@ -22,7 +22,7 @@ const Tasks = () => {
             </span>
           </div>
           <p>
-            Incorporate <b> steakhoure NYC, best burgers</b> and{" "}
+            Incorporate <b> steakhouse NYC, best burgers</b> and{" "}
             <b> places to eat</b> in the "TITLE" of your website
           </p>
           <div className="flex">
