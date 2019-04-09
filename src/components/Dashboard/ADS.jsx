@@ -1,7 +1,13 @@
 import React from "react";
 
 import "./ads.css";
-import { DownArrowIcon, TickIcon, StatisticsIcon } from "../../img/svg/Icons";
+import {
+  DownArrowIcon,
+  TickIcon,
+  StatisticsIcon,
+  QuestionMarkIcon,
+  EuroIcon
+} from "../../img/svg/Icons";
 
 const ADS = () => {
   return (
@@ -20,7 +26,7 @@ const ADS = () => {
       </div>
       <p> September 2017 </p>
 
-      <div className="space-between mt-big">
+      <div className="space-around mt-big">
         <div className="icon-container">
           <span className="tick-icon-absolute">
             <TickIcon icon="ads-tick-icon" />
@@ -38,6 +44,58 @@ const ADS = () => {
           </p>
           <span>LAST SYNC 2017-09-26 11:22</span>
         </div>
+      </div>
+
+      <div className="status-container space-between mt-big">
+        <div>
+          <div>
+            <span>CLICKS</span>
+            <span className="ml-small">
+              <QuestionMarkIcon icon="icon icon-grey" />
+            </span>
+          </div>
+          <h1>113</h1>
+        </div>
+        <div>
+          <div>
+            <span>VIEWS</span>
+            <span className="ml-small">
+              <QuestionMarkIcon icon="icon icon-grey" />
+            </span>
+          </div>
+          <h1>1278</h1>
+        </div>
+        <div>
+          <div>
+            <span>COST PER CLICK</span>
+            <span className="ml-small">
+              <QuestionMarkIcon icon="icon icon-grey" />
+            </span>
+          </div>
+          <h1 className="align-center">
+            0,31
+            <span>
+              <EuroIcon icon="euro-icon icon-dark-blue" />
+            </span>
+          </h1>
+        </div>
+        <div>
+          <div>
+            <span>COST OF CLICKS</span>
+            <span className="ml-small">
+              <QuestionMarkIcon icon="icon icon-grey" />
+            </span>
+          </div>
+          <h1 className="align-center">
+            35,00
+            <span>
+              <EuroIcon icon="euro-icon icon-dark-blue" />
+            </span>
+          </h1>
+        </div>
+      </div>
+      <div className="btn-center-container border-top">
+        <button>SEE MORE</button>
       </div>
     </div>
   );

@@ -1,8 +1,9 @@
 import React from "react";
 
-export const EuroIcon = () => {
+export const EuroIcon = ({ icon }) => {
   return (
     <svg
+      className={icon}
       version="1.1"
       id="Layer_1"
       xmlns="http://www.w3.org/2000/svg"
@@ -79,6 +80,7 @@ export const TickIcon = ({ icon }) => {
 export const QuestionMarkIcon = ({ icon }) => {
   return (
     <svg
+      className={icon}
       version="1.1"
       id="Capa_1"
       xmlns="http://www.w3.org/2000/svg"

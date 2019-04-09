@@ -1,5 +1,6 @@
 .container-ADS {
   margin-top: 2.5rem;
+  padding-bottom: 0;
 }
 
 .container-ADS p {
@@ -80,4 +81,21 @@
   font-weight: 500;
 
   color: #234460;
+}
+
+.status-container span {
+  color: var(--grey-color);
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.status-container h1 {
+  font-size: 5rem;
+  color: var(--dark-blue-color);
+  font-weight: 300;
+}
+
+.euro-icon {
+  width: 4rem;
+  height: 4rem;
 }
