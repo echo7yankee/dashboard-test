@@ -1,0 +1,83 @@
+/* NAV TOP */
+
+.navTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navTop-items {
+  display: flex;
+  align-items: center;
+}
+
+.navTop-item,
+.navLeft-item {
+  list-style: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--grey-color);
+  cursor: pointer;
+}
+
+.icon-grey-color {
+  fill: var(--grey-color);
+}
+
+.profile-img {
+  width: 4.4rem;
+  height: 4.4rem;
+  box-sizing: border-box;
+  border: 2px solid #3f5f92;
+  border-radius: 50%;
+}
+
+/* NAV LEFT */
+
+.navLeft-items {
+  padding: 0;
+}
+
+.item-active {
+  color: var(--dark-blue-color);
+  font-weight: 500;
+}
+
+.icon-active {
+  fill: var(--dark-blue-color);
+  stroke: var(--dark-blue-color);
+  stroke-width: 3;
+}
+
+.border {
+  box-sizing: border-box;
+  height: 2px;
+  width: 6.3rem;
+  border: 1px solid rgba(187, 187, 196, 0.5);
+}
+
+.task-number {
+  margin-left: 10rem;
+  position: relative;
+}
+
+.task-number::after {
+  content: "";
+  position: absolute;
+  top: -60%;
+  left: -65%;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  border-top: 2px solid var(--grey-color);
+  transform: rotate(45deg);
+  width: 35px;
+  height: 35px;
+}
+
+.border-mr {
+  margin-right: 1.2rem;
+}
+
+.border-ml {
+  margin-left: 1.2rem;
+}

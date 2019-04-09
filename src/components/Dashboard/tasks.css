@@ -1,0 +1,92 @@
+.container-tasks {
+  margin-top: 2.5rem;
+  padding: 3rem 0.8rem 0rem 0.8rem;
+}
+
+.task-grid {
+  display: flex;
+}
+
+.task-google {
+  background-image: url("../../img/search_engines.png");
+  width: 67rem;
+  height: 39.5rem;
+  background-position: right;
+  opacity: 0.85;
+  padding: 5rem 5rem 4rem 4rem;
+}
+
+.task-google p {
+  font-size: 3rem;
+  color: var(--main-color);
+  text-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex span {
+  font-size: 1.6rem;
+  color: var(--main-color);
+}
+
+.donut-icon-white {
+  fill: var(--main-color);
+  stroke: var(--main-color);
+  stroke-width: 20;
+}
+
+.task-google-btn {
+  height: 4.4rem;
+  width: 19.8rem;
+  border: 1px solid var(--main-color);
+  font-size: 1.6rem;
+  color: var(--main-color);
+  border-radius: 2px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.task-column {
+}
+
+.task {
+  height: 19.4rem;
+  width: 44.4rem;
+  opacity: 0.85;
+  padding: 3rem 3rem 6rem 6rem;
+  margin-left: 0.7rem;
+}
+
+.task-social-media {
+  background: url("../../img/social_media.png");
+}
+
+.task-seo {
+  background: url("../../img/business_listings.png");
+  margin-top: 0.7rem;
+}
+
+.task div span {
+  color: var(--main-color);
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+}
+
+.btn-center-container {
+  text-align: center;
+}
+
+.btn-center-container button {
+  border: none;
+  background: transparent;
+  font-size: 1.6rem;
+  color: var(--blue-color);
+  margin: 2rem 0;
+  cursor: pointer;
+}

@@ -1,0 +1,83 @@
+.container-ADS {
+  margin-top: 2.5rem;
+}
+
+.container-ADS p {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  color: #646e80;
+}
+
+.period span {
+  font-size: 1.6rem;
+  color: #646e80;
+}
+
+.ads-btn {
+  width: 25rem;
+  height: 4.6rem;
+  border: 1px solid #e0e4eb;
+  border-radius: 2px 2px 0 0;
+  background: transparent;
+  color: #646e80;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.ads-btn span {
+  cursor: pointer;
+}
+
+.down-arrow-icon {
+  height: 0.6rem;
+  width: 0.9rem;
+}
+
+.icon-container {
+  position: relative;
+}
+
+.ads-tick-icon {
+  width: 5.7rem;
+  height: 5.7rem;
+  fill: #22c646;
+}
+
+.tick-icon-absolute {
+  position: absolute;
+  z-index: 1;
+  background: var(--main-color);
+  border-radius: 50%;
+}
+
+.ads-statistics-icon {
+  width: 10rem;
+  height: 8.2rem;
+  fill: var(--grey-color);
+}
+
+.sync-container {
+  width: 70rem;
+}
+
+.sync-container h4 {
+  font-size: 1.6rem;
+  font-weight: 500;
+
+  color: #224461;
+}
+
+.sync-container p {
+  color: #646e80;
+  font-size: 1.6rem;
+}
+
+.sync-container span {
+  font-size: 1.2rem;
+  font-weight: 500;
+
+  color: #234460;
+}
