@@ -53,7 +53,7 @@ const NavLeft = () => {
           </span>
           <span>GENERAL</span>
         </li>
-        <li className="navLeft-item mt">
+        <li className="navLeft-item mt ">
           <span className="mr">
             <SEOIcon icon="icon" />
           </span>

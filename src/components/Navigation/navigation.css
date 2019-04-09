@@ -18,6 +18,8 @@
   font-weight: 500;
   color: var(--grey-color);
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 .icon-grey-color {
