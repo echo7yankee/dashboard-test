@@ -1,28 +1,42 @@
 import React from "react";
+import { Line, Doughnut } from "react-chartjs-2";
 
-import chartImg from "../../img/chart.png";
 import ipadImg from "../../img/svg/iPad.svg";
 import iphoneImg from "../../img/svg/iphone.svg";
 import macbookImg from "../../img/svg/macbook.svg";
 
 import "./chart.css";
-import {
-  GoogleIcon,
-  LinkIcon,
-  CommentIcon,
-  CaseIcon
-} from "../../img/svg/Icons";
 
-const Chart = () => {
+const Chart = ({ chartData, chartRomania, chartEngland, chartGermany }) => {
   return (
     <div className="container">
       <h3>LOCAL VISIBILITY</h3>
       <div className="chart-container">
         <div className="chart-img-container">
-          <img className="chart-img" src={chartImg} alt="" />
+          <Line
+            data={chartData}
+            options={{
+              title: {
+                display: true,
+                text: "Highest country population",
+                fontSize: 25
+              },
+              legend: {
+                display: true,
+                position: "top",
+                labels: {
+                  fontColor: "#000"
+                }
+              },
+              tooltips: {
+                enabled: true
+              }
+            }}
+          />
+
           <div className="status">
-            <span>INITIAL</span>
-            <span>CURRENT</span>
+            <span>Lowest</span>
+            <span>Highest</span>
           </div>
         </div>
         <div className="devices-container">
@@ -34,37 +48,70 @@ const Chart = () => {
 
       <div className="donuts-container">
         <div className="donuts">
-          <span className=" round-donut-blue">
-            <GoogleIcon donutIcon="donut-icon donut-icon-blue" />
-          </span>
-          <p className="donut-text">
-            <span>SEARCH ENGINES</span>
-            <span className="ml cursor-pointer">
-              <LinkIcon />
-            </span>
-          </p>
+          <Doughnut
+            data={chartRomania}
+            options={{
+              title: {
+                display: true,
+                text: "City population in Romania",
+                fontSize: 14
+              },
+              legend: {
+                display: true,
+                position: "top",
+                labels: {
+                  fontColor: "#000"
+                }
+              },
+              tooltips: {
+                enabled: true
+              }
+            }}
+          />
         </div>
         <div className="donuts">
-          <span className="round-donut-green">
-            <CommentIcon donutIcon="donut-icon donut-icon-green" />
-          </span>
-          <p className="donut-text">
-            <span>SOCIAL MEDIA</span>
-            <span className="ml cursor-pointer">
-              <LinkIcon />
-            </span>
-          </p>
+          <Doughnut
+            data={chartEngland}
+            options={{
+              title: {
+                display: true,
+                text: "City population in England",
+                fontSize: 14
+              },
+              legend: {
+                display: true,
+                position: "top",
+                labels: {
+                  fontColor: "#000"
+                }
+              },
+              tooltips: {
+                enabled: true
+              }
+            }}
+          />
         </div>
         <div className="donuts">
-          <span className="round-donut-orange">
-            <CaseIcon donutIcon="donut-icon donut-icon-orange" />
-          </span>
-          <p className="donut-text">
-            <span>LOCAL SEO</span>
-            <span className="ml cursor-pointer">
-              <LinkIcon />
-            </span>
-          </p>
+          <Doughnut
+            data={chartGermany}
+            options={{
+              title: {
+                display: true,
+                text: "City population in Germany",
+                fontSize: 14
+              },
+              legend: {
+                display: true,
+                position: "top",
+                labels: {
+                  fontColor: "#000"
+                }
+              },
+              tooltips: {
+                enabled: true
+              }
+            }}
+          />
         </div>
       </div>
     </div>
