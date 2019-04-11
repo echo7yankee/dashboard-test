@@ -11,7 +11,7 @@ import {
 
 const ADS = () => {
   return (
-    <div className="container container-ADS">
+    <div className="container margin-section container-ADS">
       <div className="flex align-center">
         <h3>SEARCH ENGINE ADS</h3>
         <div className="align-center period">
@@ -35,7 +35,7 @@ const ADS = () => {
             <StatisticsIcon icon="ads-statistics-icon" />
           </span>
         </div>
-        <div className="sync-container">
+        <div className="info-container ml-big">
           <h4>YOUR CAMPAIGN IS RUNNING ON ADS AUTOPILOT!</h4>
           <p>
             Your campaign is currently running. Your ads have been approved and

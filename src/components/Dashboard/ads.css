@@ -1,5 +1,4 @@
 .container-ADS {
-  margin-top: 2.5rem;
   padding-bottom: 0;
 }
 
@@ -52,6 +51,9 @@
   z-index: 1;
   background: var(--main-color);
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ads-statistics-icon {
@@ -60,23 +62,23 @@
   fill: var(--grey-color);
 }
 
-.sync-container {
+.info-container {
   width: 70rem;
 }
 
-.sync-container h4 {
+.info-container h4 {
   font-size: 1.6rem;
   font-weight: 500;
 
   color: #224461;
 }
 
-.sync-container p {
+.info-container p {
   color: #646e80;
   font-size: 1.6rem;
 }
 
-.sync-container span {
+.info-container span {
   font-size: 1.2rem;
   font-weight: 500;
 

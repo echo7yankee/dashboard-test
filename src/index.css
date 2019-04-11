@@ -90,6 +90,10 @@ code {
   margin-right: 1.8rem;
 }
 
+.mr-small {
+  margin-right: 0.8rem;
+}
+
 .mt {
   margin-top: 2.5rem;
 }
@@ -98,12 +102,20 @@ code {
   margin-top: 10rem;
 }
 
+.mt-medium {
+  margin-top: 4rem;
+}
+
 .ml {
   margin-left: 1.8rem;
 }
 
 .ml-small {
   margin-left: 0.7rem;
+}
+
+.ml-medium {
+  margin-left: 2.5rem;
 }
 
 .ml-big {
@@ -118,8 +130,20 @@ code {
   margin-bottom: 3rem;
 }
 
+.mb-medium {
+  margin-bottom: 4rem;
+}
+
 .mb-big {
   margin-bottom: 7rem;
+}
+
+.margin-section {
+  margin-top: 2.5rem !important;
+}
+
+.margin-section-left {
+  margin-left: 2.5rem;
 }
 
 .display-flex {

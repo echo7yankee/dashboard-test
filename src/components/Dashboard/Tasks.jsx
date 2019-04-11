@@ -11,7 +11,7 @@ import {
 
 const Tasks = () => {
   return (
-    <div className="container container-tasks">
+    <div className="container margin-section container-tasks">
       <h3 className="ml-big">YOUR TASKS FOR THIS WEEK</h3>
       <div className="task-grid mt">
         <div className="task-google">

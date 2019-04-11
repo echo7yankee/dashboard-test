@@ -2,6 +2,8 @@ import React from "react";
 import Chart from "./Chart";
 import Tasks from "./Tasks";
 import ADS from "./ADS";
+import SEO from "./SEO";
+import Footer from "./Footer";
 
 const Dashboard = ({ chartData, chartRomania, chartEngland, chartGermany }) => {
   return (
@@ -14,6 +16,8 @@ const Dashboard = ({ chartData, chartRomania, chartEngland, chartGermany }) => {
       />
       <Tasks />
       <ADS />
+      <SEO />
+      <Footer />
     </div>
   );
 };

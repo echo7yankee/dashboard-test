@@ -19,7 +19,7 @@ const Chart = ({ chartData, chartRomania, chartEngland, chartGermany }) => {
               title: {
                 display: true,
                 text: "Highest country population",
-                fontSize: 25
+                fontSize: 18
               },
               legend: {
                 display: true,
@@ -54,7 +54,7 @@ const Chart = ({ chartData, chartRomania, chartEngland, chartGermany }) => {
               title: {
                 display: true,
                 text: "City population in Romania",
-                fontSize: 14
+                fontSize: 12
               },
               legend: {
                 display: true,
@@ -76,7 +76,7 @@ const Chart = ({ chartData, chartRomania, chartEngland, chartGermany }) => {
               title: {
                 display: true,
                 text: "City population in England",
-                fontSize: 14
+                fontSize: 12
               },
               legend: {
                 display: true,
@@ -98,7 +98,7 @@ const Chart = ({ chartData, chartRomania, chartEngland, chartGermany }) => {
               title: {
                 display: true,
                 text: "City population in Germany",
-                fontSize: 14
+                fontSize: 12
               },
               legend: {
                 display: true,
