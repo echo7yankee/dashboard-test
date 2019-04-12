@@ -399,7 +399,7 @@ export const YpIcon = ({ icon }) => {
       x="0px"
       y="0px"
       viewBox="0 0 1024 1024"
-      enable-background="new 0 0 1024 1024"
+      enableBackground="new 0 0 1024 1024"
     >
       <circle id="XMLID_1_" fill="#242021" cx="512" cy="512" r="512" />
       <g>
