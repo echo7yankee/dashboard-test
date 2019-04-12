@@ -86,7 +86,7 @@ const SEO = () => {
             <DeleteIcon icon="ads-icon-medium ads-icon-medium-red" />
           </span>
           <p>
-            <span>GOOGLE PLUS</span>
+            <span>FACEBOOK</span>
             <span>
               <LinkIcon icon="ads-icon-small  ml-small" />
             </span>
@@ -100,7 +100,7 @@ const SEO = () => {
             <DeleteIcon icon="ads-icon-medium ads-icon-medium-red" />
           </span>
           <p>
-            <span>GOOGLE PLUS</span>
+            <span>FOURSQUARE</span>
             <span>
               <LinkIcon icon="ads-icon-small ml-small" />
             </span>
@@ -114,7 +114,7 @@ const SEO = () => {
             <DeleteIcon icon="ads-icon-medium ads-icon-medium-orange" />
           </span>
           <p>
-            <span>GOOGLE PLUS</span>
+            <span>BING</span>
             <span>
               <LinkIcon icon="ads-icon-small  ml-small" />
             </span>
@@ -128,7 +128,7 @@ const SEO = () => {
             <TickAdsIcon icon="ads-icon-medium ads-icon-medium-green" />
           </span>
           <p>
-            <span>GOOGLE PLUS</span>
+            <span>GOOGLE PLACES</span>
             <span>
               <LinkIcon icon="ads-icon-small  ml-small" />
             </span>
@@ -142,7 +142,7 @@ const SEO = () => {
             <TickAdsIcon icon="ads-icon-medium ads-icon-medium-green" />
           </span>
           <p>
-            <span>GOOGLE PLUS</span>
+            <span>YELP</span>
             <span>
               <LinkIcon icon="ads-icon-small  ml-small" />
             </span>
@@ -159,7 +159,7 @@ const SEO = () => {
             <TickAdsIcon icon="ads-icon-medium ads-icon-medium-green" />
           </span>
           <p>
-            <span>GOOGLE PLUS</span>
+            <span>YELLOW PAGES</span>
             <span>
               <LinkIcon icon="ads-icon-small  ml-small" />
             </span>
@@ -173,7 +173,7 @@ const SEO = () => {
             <TickAdsIcon icon="ads-icon-medium ads-icon-medium-green" />
           </span>
           <p>
-            <span>GOOGLE PLUS</span>
+            <span>TWITTER</span>
             <span>
               <LinkIcon icon="ads-icon-small  ml-small" />
             </span>
@@ -187,7 +187,7 @@ const SEO = () => {
             <TickAdsIcon icon="ads-icon-medium ads-icon-medium-green" />
           </span>
           <p>
-            <span>GOOGLE PLUS</span>
+            <span>TUMBLR</span>
             <span>
               <LinkIcon icon="ads-icon-small  ml-small" />
             </span>
@@ -199,7 +199,7 @@ const SEO = () => {
             <TickAdsIcon icon="ads-icon-medium ads-icon-medium-green" />
           </span>
           <p>
-            <span>GOOGLE PLUS</span>
+            <span>DIRECTORY NAME</span>
             <span>
               <LinkIcon icon="ads-icon-small  ml-small" />
             </span>
@@ -211,7 +211,7 @@ const SEO = () => {
             <TickAdsIcon icon="ads-icon-medium ads-icon-medium-green" />
           </span>
           <p>
-            <span>GOOGLE PLUS</span>
+            <span>DIRECTORY NAME</span>
             <span>
               <LinkIcon icon="ads-icon-small  ml-small" />
             </span>
@@ -223,7 +223,7 @@ const SEO = () => {
             <TickAdsIcon icon="ads-icon-medium ads-icon-medium-green" />
           </span>
           <p>
-            <span>GOOGLE PLUS</span>
+            <span>DIRECTORY NAME</span>
             <span>
               <LinkIcon icon="ads-icon-small ml-small" />
             </span>
